@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Argent Bank
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/509a50b6-fb7b-4ac2-8fe1-224373ba9189/deploy-status)](https://app.netlify.com/sites/frosty-jackson-8f2a78/deploys)
 
-## Available Scripts
+ArgentBank is a banking application for individuals. Project 13 of the OpenClassrooms "Front End Developer" course. For this project I'm using [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), [React Router](https://reactrouter.com/), and [Redux](https://redux.js.org/) in a [statically typed](https://fr.wikipedia.org/wiki/Typage_statique) [functional](https://en.wikipedia.org/wiki/Functional_programming) paradigm.
 
-In the project directory, you can run:
+**Useful links:**
+- [Live demo 🌍](https://oc-p13.goulven-clech.dev) 
+- [Repository 📖](https://github.com/GoulvenC/GoulvenClech_13_08102021)
+- [Back end Repository 📖](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API/)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> ⚠️ You need this [Back end API](https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API/) running on `http://localhost:3001/` for this project to work ! 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1 - Install [Yarn](https://yarnpkg.com/) on your system
 
-### `npm test`
+2 - Download this project and open the folder
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3 - Install the dependencies with `yarn install`
 
-### `npm run build`
+4 - Start [Vite](https://vitejs.dev/) live server with `yarn dev`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5 - To obtain a production version do `yarn build`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is part of the OpenClassrooms [Front-End Developer](https://openclassrooms.com/fr/paths/314-developpeur-front-end) course. The code is freely reusable, but the images / logo / figma mock-up do not belong to me.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you are also an OC student, you can freely draw inspiration from my work, but I obviously do not recommend copying parts of it.
